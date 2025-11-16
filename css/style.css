@@ -170,7 +170,7 @@ nav .navbar-nav .nav-link {
   margin-right: 15px;
   font-size: 16pxpx;
 }
-nav .navbar-nav .nav-link:hover{
+nav .navbar-nav .nav-link:hover {
   color: var(--btn-bg);
 }
 nav .nav-item {
@@ -206,11 +206,10 @@ nav .nav-item .active::after {
   align-items: center;
 }
 /* start dropdown  */
-.dropdown-menu {
-  width: auto;
-  margin: auto;
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  width: 1000px;
   padding: 20px;
-  right: -180px;
+  left: -500px;
 }
 .first-img {
   background-image: url(https://images.unsplash.com/photo-1522083165195-3424ed129620);
@@ -257,7 +256,7 @@ header {
 .header-text {
   padding-top: 90px;
 }
-.header-btn:hover{
+.header-btn:hover {
   background-color: var(--bg-footer);
 }
 /*========== end header ===========*/
@@ -472,7 +471,7 @@ header {
 .accordion-item {
   box-shadow: 4px 4px 5px rgba(225, 221, 221, 0.895);
 }
-.carousel-item{
+.carousel-item {
   height: 320px;
 }
 /*============= end fsq ===========*/
@@ -493,7 +492,10 @@ header {
 .contact .four-card .inner:hover .icon-scale {
   transform: scale(1.1);
 }
-.border-darkpurple ,.border-lightpurple ,.border-pink ,.border-blue {
+.border-darkpurple,
+.border-lightpurple,
+.border-pink,
+.border-blue {
   border: 2px solid #f3f4f6;
   transition: hover 0.5s;
 }
@@ -501,13 +503,13 @@ header {
   border-color: #c4b4ff;
 }
 .border-lightpurple:hover {
-  border: 2px solid #DAB2FF;
+  border: 2px solid #dab2ff;
 }
-.border-pink:hover{
-    border: 2px solid #F4A8FF;
+.border-pink:hover {
+  border: 2px solid #f4a8ff;
 }
-.border-blue:hover{
-  border: 2px solid #A3B3FF;
+.border-blue:hover {
+  border: 2px solid #a3b3ff;
 }
 .contact input::placeholder,
 .contact select::placeholder {
