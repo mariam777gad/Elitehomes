@@ -1426,8 +1426,8 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="contact py-5">
-      <div class="main-text text-center my-4">
+    <section id="contact" class="contact py-5 position-relative overflow-hidden">
+      <div class="main-text text-center mt-4 mb-5">
         <span class="text-uppercase text-main-color fw-bold rounded-pill">
           Contact Us</span
         >
@@ -1440,8 +1440,8 @@
       <div class="container">
         <div class="row g-4">
           <div class="col-md-6 col-lg-3 p-4 four-card">
-            <div class="inner border border-purple p-4 rounded-4">
-              <div class="icon-scale p-3 rounded-3 text-white btn-bg fs-4">
+            <div class="inner p-4 rounded-4 border-darkpurple">
+              <div class="icon-scale py-2 px-3 rounded-3 text-white btn-bg fs-4">
                 <i class="fa-solid fa-phone"></i>
               </div>
               <h5 class="mt-4 fw-semibold">Call Us</h5>
@@ -1450,8 +1450,8 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-3 p-4 b four-card">
-            <div class="inner border border-1 p-4 rounded-4">
-              <div class="icon-scale p-3 rounded-3 text-white btn-purple fs-4">
+            <div class="inner border-lightpurple p-4 rounded-4">
+              <div class="icon-scale py-2 px-3 rounded-3 text-white btn-purple fs-4">
                 <i class="fa-solid fa-envelope"></i>
               </div>
               <h5 class="mt-4 fw-semibold">Email Us</h5>
@@ -1460,9 +1460,9 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-3 p-4 b four-card">
-            <div class="inner border border-1 p-4 rounded-4">
+            <div class="inner border-pink p-4 rounded-4">
               <div
-                class="icon-scale p-3 rounded-3 text-white fs-4 location-dot"
+                class="icon-scale py-2 px-3 rounded-3 text-white fs-4 location-dot"
               >
                 <i class="fa-solid fa-location-dot"></i>
               </div>
@@ -1472,8 +1472,8 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-3 p-4 b four-card">
-            <div class="inner border border-1 p-4 rounded-4">
-              <div class="icon-scale p-3 rounded-3 text-white bg-blue fs-4">
+            <div class="inner border-blue p-4 rounded-4">
+              <div class="icon-scale py-2 px-3  rounded-3 text-white bg-blue fs-4">
                 <i class="fa-solid fa-comments"></i>
               </div>
               <h5 class="mt-4 fw-semibold">Live Chat</h5>
@@ -1505,8 +1505,8 @@
                 </div>
                 <div class="mx-3">
                   <h5 class="h6 fw-bold">Phone</h5>
-                  <p class="p-small text-muted">+1 (555) 123-4567</p>
-                  <p class="p-small text-muted">+1 (555) 987-6543</p>
+                  <p class="p-small text-muted mobile-number">+1 (555) 123-4567</p>
+                  <p class="p-small text-muted mobile-number">+1 (555) 987-6543</p>
                 </div>
               </div>
               <div class="d-flex mt-4 mb-3">
@@ -1517,8 +1517,8 @@
                 </div>
                 <div class="mx-3">
                   <h5 class="h6 fw-bold">Email</h5>
-                  <p class="p-small text-muted">info@elitehomes.com</p>
-                  <p class="p-small text-muted">support@elitehomes.com</p>
+                  <p class="p-small text-muted mobile-number">info@elitehomes.com</p>
+                  <p class="p-small text-muted mobile-number">support@elitehomes.com</p>
                 </div>
               </div>
               <div class="d-flex mt-4 mb-3">
@@ -1535,7 +1535,7 @@
               </div>
             </div>
 
-            <div class="inner mt-3 btn-bg text-white p-4 rounded-4">
+            <div class="inner mt-3 btn-bg text-white p-3 rounded-4">
               <h3 class="h4">Connect With Us</h3>
               <p class="p-small mt-3">
                 Follow us on social media for updates and insights
@@ -1569,16 +1569,16 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-8 p-4 border border-1 rounded-3">
+          <div class="col-lg-8 p-4  rounded-3 mb-5 section-border">
             <h3 class="fw-bold">Send us a message</h3>
             <p class="p-small color-gray my-3">
               Fill out the form below and we'll get back to you as soon as
               possible
             </p>
-            <form action="" class="row justify-content-center">
+            <form action="" class="row justify-content-center ">
               <div class="col-md-6 d-flex flex-column my-2">
                 <label class="my-2 fw-bold dark-gray" for="first"
-                  >First Name *</label
+                  >First Name <span>*</span></label
                 >
                 <input
                   type="text"
@@ -1586,11 +1586,12 @@
                   name="first-name"
                   placeholder="John"
                   class="form-control"
+                  required
                 />
               </div>
               <div class="col-md-6 d-flex flex-column my-2">
                 <label class="my-2 fw-bold dark-gray" for="last-name"
-                  >Last Name *</label
+                  >Last Name <span>*</span></label
                 >
                 <input
                   type="text"
@@ -1602,7 +1603,7 @@
               </div>
               <div class="col-md-6 d-flex flex-column my-2">
                 <label class="my-2 fw-bold dark-gray" for="email"
-                  >Email Address *</label
+                  >Email Address <span>*</span></label
                 >
                 <input
                   type="email"
@@ -1643,7 +1644,7 @@
 
               <div class="col-12 d-flex flex-column my-2">
                 <label class="my-2 fw-bold dark-gray" for="message"
-                  >Your Message *</label
+                  >Your Message <span>*</span></label
                 >
                 <textarea
                   name="message"
@@ -1665,7 +1666,7 @@
                   EliteHomes</label
                 >
               </div>
-              <button
+              <button type="submit"
                 class="col-12 py-3 rounded-3 border-0 btn-bg text-white fs-5 fw-medium btn-second-form"
               >
                 Send Message <i class="fa-solid fa-paper-plane"></i>
@@ -1677,6 +1678,10 @@
           </div>
         </div>
       </div>
+      <div class="big bg-lightpurple  rounded-circle position-absolute">
+        <div class="small  rounded-circle"></div>
+      </div>
+      <div class="circle btn-light-bg rounded-circle"></div>
     </section>
     <footer class="py-5 bg-footer text-white">
       <div class="container">
@@ -1719,7 +1724,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-4 text-center w-100 my-3 p-small">
+        <div class="col-lg-4 text-center w-100 my-3 p-smaller color-light">
           Made with <i class="fa-solid fa-heart"></i> for finding your dream
           home
         </div>
