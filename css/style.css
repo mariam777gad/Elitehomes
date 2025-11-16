@@ -241,30 +241,29 @@ nav .nav-item .active::after {
     transparent
   );
 }
-.dropdown-card:hover{
+.dropdown-card:hover {
   cursor: pointer;
   background-color: var(--bg-section);
 }
-.p-verysmall{
+.p-verysmall {
   font-size: 12px;
 }
-.dropdown .dropdown-list li:hover  span{
+.dropdown .dropdown-list li:hover span {
   color: var(--color-purple);
 }
-.dropdown  .dropdown-left-card:hover .card-head1{
+.dropdown .dropdown-left-card:hover .card-head1 {
   color: var(--color-purple);
 }
-.dropdown  .dropdown-left-card:hover .card-head2{
-  color:var(--bg-green);
+.dropdown .dropdown-left-card:hover .card-head2 {
+  color: var(--bg-green);
 }
-.dropdown  .dropdown-left-card:hover .card-head3{
+.dropdown .dropdown-left-card:hover .card-head3 {
   color: var(--color-purple);
 }
-.fa-arrow-right
-{
+.fa-arrow-right {
   transition: transform 0.4s;
 }
-.dropdown  .dropdown-left-card:hover .fa-arrow-right{
+.dropdown .dropdown-left-card:hover .fa-arrow-right {
   transform: translateX(10px);
 }
 /* end dropdown */
@@ -390,7 +389,7 @@ header {
   color: var(--icon-bg-color);
 }
 .camera-icon {
-  bottom: 250px;
+  bottom: 10px;
   left: 20px;
   padding: 5px 10px;
   background-color: rgba(0, 0, 0, 0.635);
@@ -402,6 +401,9 @@ header {
 .p-semi-small {
   font-size: 18px;
 }
+.card-shadow {
+  box-shadow: 5px 5px 5px rgba(223, 219, 219, 0.808);
+}
 /*========== end properties ===========*/
 /*========== start service===========*/
 .outer-content {
@@ -409,16 +411,20 @@ header {
   bottom: -20px;
 }
 .outer-content1 {
-  left: -10px;
+  left: -20px;
   bottom: -20px;
 }
 .outer-content2 {
   right: -15px;
   bottom: -20px;
 }
+.outer-content,
+.outer-content1,
+.outer-content2 {
+  box-shadow: 3px 3px 5px rgba(118, 117, 117, 0.808);
+}
 .tab-img {
   width: 85%;
-  overflow: hidden;
   height: 350px;
 }
 
@@ -550,13 +556,14 @@ input[type="checkbox"] {
   width: 20px;
   height: 20px;
 }
-input[type="checkbox"]:hover , label[for="check"]{
+input[type="checkbox"]:hover,
+label[for="check"] {
   cursor: pointer;
 }
 .contact .section-border {
   border: 2px solid #f3f4f6;
 }
-select:hover{
+select:hover {
   cursor: pointer;
 }
 .form-control:focus,
