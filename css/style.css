@@ -20,7 +20,7 @@ p {
   width: 65%;
 }
 header .container {
-  width: 60%;
+  width: 55%;
 }
 @media screen and (max-width: 900px) {
   header .container,
@@ -28,9 +28,6 @@ header .container {
   .faq .container {
     width: 90%;
   }
-}
-input {
-  border-color: black;
 }
 form input:focus,
 form select:focus {
@@ -171,6 +168,10 @@ nav .navbar-nav .nav-link.active {
 nav .navbar-nav .nav-link {
   position: relative;
   margin-right: 15px;
+  font-size: 16pxpx;
+}
+nav .navbar-nav .nav-link:hover{
+  color: var(--btn-bg);
 }
 nav .nav-item {
   position: relative;
@@ -256,7 +257,9 @@ header {
 .header-text {
   padding-top: 90px;
 }
-
+.header-btn:hover{
+  background-color: var(--bg-footer);
+}
 /*========== end header ===========*/
 /* =================== style headings =============== */
 .main-text span {
@@ -468,6 +471,9 @@ header {
 }
 .accordion-item {
   box-shadow: 4px 4px 5px rgba(225, 221, 221, 0.895);
+}
+.carousel-item{
+  height: 320px;
 }
 /*============= end fsq ===========*/
 /* ======== start contact ========== */

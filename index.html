@@ -37,12 +37,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
             </li>
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link"
+                class="nav-link fw-semibold"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -50,7 +50,7 @@
               >
                 Properties <i class="fa-solid fa-chevron-down"></i>
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu ">
                 <li class="dropdown-item w-li-item">
                   <div>
                     <h5>Featured Properties</h5>
@@ -162,16 +162,16 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#service">Services</a>
+              <a class="nav-link fw-semibold" href="#service">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+              <a class="nav-link fw-semibold" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#faq">FAQ</a>
+              <a class="nav-link fw-semibold" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link fw-semibold" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -186,9 +186,9 @@
         </p>
       </div>
       <div class="container mt-5 text-center">
-        <form class="row g-4 text-dark bg-white p-4 rounded-4 text-capitalize">
+        <form class="row g-4 text-dark bg-white p-3 rounded-4 text-capitalize">
           <div class="col-lg-6 d-flex flex-column">
-            <label for="location" class="mb-2">Location</label>
+            <label for="location" class="mb-2 p-small">Location</label>
             <input
               type="text"
               name="location"
@@ -199,7 +199,7 @@
           </div>
 
           <div class="col-lg-3 d-flex flex-column">
-            <label for="prperty" class="mb-2">Property Type</label>
+            <label for="prperty" class="mb-2 p-small">Property Type</label>
             <select
               name="prperty"
               id="prperty"
@@ -214,7 +214,7 @@
             </select>
           </div>
           <div class="col-lg-3 d-flex flex-column">
-            <label for="price" class="mb-2">Price Range</label>
+            <label for="price" class="mb-2 p-small">Price Range</label>
             <select
               name="price"
               id="price"
@@ -230,7 +230,7 @@
           </div>
 
           <div class="col-6 col-lg-3 d-flex flex-column">
-            <label for="bedroom" class="mb-2">Bedrooms</label>
+            <label for="bedroom" class="mb-2 p-small">Bedrooms</label>
             <select
               name="bedroom"
               id="bedroom"
@@ -245,7 +245,7 @@
             </select>
           </div>
           <div class="col-6 col-lg-3 d-flex flex-column">
-            <label for="bathroom" class="mb-2">Bathrooms</label>
+            <label for="bathroom" class="mb-2 p-small">Bathrooms</label>
             <select
               name="bathroom"
               id="bathroom"
@@ -259,7 +259,7 @@
             </select>
           </div>
           <div class="col-6 col-lg-3 d-flex flex-column">
-            <label for="min">Min Sq Ft</label>
+            <label for="min" class="mb-2 p-small">Min Sq Ft</label>
             <input
               type="number"
               name="min"
@@ -269,7 +269,7 @@
             />
           </div>
           <div class="col-6 col-lg-3 d-flex flex-column">
-            <label for="max">Max Sq Ft</label>
+            <label for="max" class="mb-2 p-small">Max Sq Ft</label>
             <input
               type="number"
               name="max"
@@ -278,14 +278,13 @@
               placeholder="5,000"
             />
           </div>
-
           <button
-            class="col-12 my-3 mx-auto rounded-2 py-3 fs-5 fw-medium btn-bg text-white border-0"
+            class="col-12 my-3 mx-auto rounded-2 py-3 fs-5 fw-medium btn-bg text-white border-0 header-btn"
           >
             <i class="fa-solid fa-magnifying-glass"></i> Search Properties
           </button>
         </form>
-        <div class="row text-white g-4 mt-3">
+        <div class="row text-white g-4 mt-2">
           <div class="col-6 col-lg-3">
             <h4 class="fs-3 fw-bold mb-0">15,000+</h4>
             <p>Active Listings</p>
@@ -1026,7 +1025,7 @@
       </div>
     </section>
     <section id="testimonials" class="testimonials py-5 vh-100">
-      <div class="main-text text-center mt-4">
+    <div class="main-text text-center mt-2">
         <span class="text-uppercase text-main-color fw-bold rounded-pill">
           Client Stories</span
         >
@@ -1041,7 +1040,7 @@
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-inner bg-light rounded-3">
-            <div class="carousel-item active p-4 h-75">
+            <div class="carousel-item active p-4">
               <span class="text-muted"
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
@@ -1071,7 +1070,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item p-4 h-75">
+            <div class="carousel-item p-4">
               <span class="text-muted"
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
@@ -1100,7 +1099,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item p-4 h-75">
+            <div class="carousel-item p-4">
               <span class="text-muted"
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
@@ -1129,7 +1128,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item p-4 h-75">
+            <div class="carousel-item p-4">
               <span class="text-muted"
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
                 ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
