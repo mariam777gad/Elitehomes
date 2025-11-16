@@ -46,9 +46,6 @@ header form select {
   background-color: #a684ff;
   color: white;
 }
-.w-img {
-  width: 100px;
-}
 .w-li-item {
   width: 250px;
 }
@@ -211,6 +208,9 @@ nav .nav-item .active::after {
   padding: 20px;
   left: -500px;
 }
+.w-img {
+  width: 60px;
+}
 .first-img {
   background-image: url(https://images.unsplash.com/photo-1522083165195-3424ed129620);
   background-position: center;
@@ -240,6 +240,32 @@ nav .nav-item .active::after {
     var(--color-purple-900) 60%,
     transparent
   );
+}
+.dropdown-card:hover{
+  cursor: pointer;
+  background-color: var(--bg-section);
+}
+.p-verysmall{
+  font-size: 12px;
+}
+.dropdown .dropdown-list li:hover  span{
+  color: var(--color-purple);
+}
+.dropdown  .dropdown-left-card:hover .card-head1{
+  color: var(--color-purple);
+}
+.dropdown  .dropdown-left-card:hover .card-head2{
+  color:var(--bg-green);
+}
+.dropdown  .dropdown-left-card:hover .card-head3{
+  color: var(--color-purple);
+}
+.fa-arrow-right
+{
+  transition: transform 0.4s;
+}
+.dropdown  .dropdown-left-card:hover .fa-arrow-right{
+  transform: translateX(10px);
 }
 /* end dropdown */
 /* end nav */
