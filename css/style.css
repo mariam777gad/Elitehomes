@@ -487,8 +487,25 @@ header {
   color: #ffb900;
   font-size: 20px;
 }
-.testimonials .carousel-item {
-  height: 100%;
+@media screen and (min-width:1200px) {
+
+  .testimonials .carousel-item{
+    height: 330px;
+  }
+}
+
+
+
+
+
+.header-text p , .main-text p{
+  width: 50%;
+  margin: auto;
+}
+@media screen and (max-width:900px) {
+  .header-text p ,  .header-text h1 ,.main-text p{
+    width: 90%;
+  };
 }
 /* ========= end testimonials ====== */
 /*============= start fsq ===========*/
