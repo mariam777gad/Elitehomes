@@ -204,9 +204,9 @@ nav .nav-item .active::after {
 }
 /* start dropdown  */
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-  width: 1000px;
+  width: 1100px;
   padding: 20px;
-  left: -500px;
+  left: -600px;
 }
 .w-img {
   width: 60px;
@@ -215,34 +215,33 @@ nav .nav-item .active::after {
   background-image: url(https://images.unsplash.com/photo-1522083165195-3424ed129620);
   background-position: center;
   background-size: cover;
-  height: 70px;
+  height: 75px;
   position: relative;
 }
 .second-img {
   background-image: url(https://images.unsplash.com/photo-1501594907352-04cda38ebc29);
   background-position: center;
   background-size: cover;
-  height: 70px;
+  height: 75px;
 }
 .third-img {
   background-image: url(https://images.unsplash.com/photo-1537996194471-e657df975ab4);
   background-position: center;
   background-size: cover;
-  height: 70px;
+  height: 75px;
 }
 .cover {
-  position: absolute;
-  top: -100%;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(
-    in oklab,
-    var(--color-purple-900) 60%,
-    transparent
-  );
+  background-image: linear-gradient(#8029cd9b);
+}
+.second-img:hover .cover , .third-img:hover .cover ,.first-img:hover .cover {
+  background-image: linear-gradient(#5015849b);
+  cursor: pointer;
+}
+.inside-text
+{
+  cursor: pointer;
 }
 .dropdown-card:hover {
-  cursor: pointer;
   background-color: var(--bg-section);
 }
 .p-verysmall {
@@ -488,6 +487,9 @@ header {
   color: #ffb900;
   font-size: 20px;
 }
+.testimonials .carousel-item {
+  height: 100%;
+}
 /* ========= end testimonials ====== */
 /*============= start fsq ===========*/
 .accordion-button:focus {
@@ -503,9 +505,9 @@ header {
 .accordion-item {
   box-shadow: 4px 4px 5px rgba(225, 221, 221, 0.895);
 }
-.carousel-item {
+/* .carousel-item {
   height: 320px;
-}
+} */
 /*============= end fsq ===========*/
 /* ======== start contact ========== */
 .contact .location-dot {
